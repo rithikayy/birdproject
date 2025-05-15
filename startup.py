@@ -33,7 +33,7 @@ if not os.path.exists(asset_zip_path):
     download_and_unzip(URL, asset_zip_path)
 # ====================================================================
 
-
+print("Download finished.")
 s = 0
 if len(sys.argv) > 1:
     s = sys.argv[1]
